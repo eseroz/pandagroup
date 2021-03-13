@@ -11,6 +11,7 @@ body {
     padding-top: 45px;
     color: #616161;
     text-shadow: #e0e0e0 1px 1px 0;
+
 }
 
 a {
@@ -56,12 +57,13 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+
 }
 
     .logo img {
         width: 250px;
         margin-top: 40px;
-        margin-left: -70px;
+        margin-left: -60px;
         -webkit-order: 0;
         -ms-flex-order: 0;
         order: 0;
@@ -80,12 +82,16 @@ a {
     line-height: 1.6;
     font-size: 30px;
     letter-spacing: 1px;
-
 }
 
     .underc-text p {
         text-align: center;
     }
+
+    .underc-text small {
+        font-size:24px;
+    }
+
 
 .info {
     width: 100%;
@@ -101,7 +107,7 @@ a {
         width: 100%;
         padding: 2px;
         text-align:center;
-        line-height:1.5
+        line-height:1.2
     }
 
     .info span {
@@ -132,6 +138,7 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+
 }
 
     .group div {
@@ -148,6 +155,7 @@ a {
         -webkit-align-self: auto;
         -ms-flex-item-align: auto;
         align-self: auto;
+
     }
 
         .group div img {
@@ -159,3 +167,30 @@ a {
         .group div img:hover {
             opacity:0.8;
         }
+
+.copyright {
+    margin-top: 4px;
+}
+
+.progres{
+
+    height:10px;
+    width:200px;
+    margin:0 auto;
+    margin-top:20px;
+    background-color:#616161;
+    border-radius:5px;
+    overflow:hidden;
+    position:relative;
+    border:solid 1px #999;
+}
+
+.completed {
+    height: 15px;
+    width: 50px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    background-color: #fff;
+    transition: width 0.5s ease;
+}

@@ -1,13 +1,4 @@
-﻿//$(document).ready(function () {
-//    startAnimations();
-//});
-
-
-//function startAnimations() {
-//    $(".group").find("img").each(function () {
-//        $imgLogo = this;
-//        setInterval(function () {
-
-//        }, 3000);
-//    });
-//}
+﻿$(document).ready(function () {
+    //var tamamlananYuzde = 60;
+    //$(".progres").find(".completed").animate({ width: 60+"%" }, 500);
+});
