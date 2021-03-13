@@ -22,5 +22,6 @@
     <Content Include="bauxite.svg" />
     <Content Include="css.css" />
     <Content Include="index.html" />
+    <Content Include="panda-js.js" />
   </ItemGroup>
 </Project>
