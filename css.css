@@ -1,4 +1,16 @@
 ﻿/* Panta BT */
+
+::-moz-selection {
+    background: white;
+    color:red;
+}
+
+::selection {
+    background: white;
+    color: red;
+}
+
+
 body {
     background: url(bg.jpg);
     background-position: center;
