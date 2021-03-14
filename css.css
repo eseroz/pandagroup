@@ -1,8 +1,4 @@
-﻿/*font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
-
-
+﻿/* Panta BT */
 body {
     background: url(bg.jpg);
     background-position: center;
@@ -11,7 +7,6 @@ body {
     padding-top: 45px;
     color: #616161;
     text-shadow: #e0e0e0 1px 1px 0;
-
 }
 
 a {
@@ -57,7 +52,6 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-
 }
 
     .logo img {
@@ -89,7 +83,7 @@ a {
     }
 
     .underc-text small {
-        font-size:24px;
+        font-size: 24px;
     }
 
 
@@ -100,14 +94,13 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     line-height: 1;
-
 }
 
     .info div {
         width: 100%;
         padding: 2px;
-        text-align:center;
-        line-height:1.2
+        text-align: center;
+        line-height: 1.2
     }
 
     .info span {
@@ -138,7 +131,6 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-
 }
 
     .group div {
@@ -155,34 +147,32 @@ a {
         -webkit-align-self: auto;
         -ms-flex-item-align: auto;
         align-self: auto;
-
     }
 
         .group div img {
             height: 40px;
             width: auto;
-            cursor:pointer;
+            cursor: pointer;
         }
 
-        .group div img:hover {
-            opacity:0.8;
-        }
+            .group div img:hover {
+                opacity: 0.8;
+            }
 
 .copyright {
     margin-top: 4px;
 }
 
-.progres{
-
-    height:10px;
-    width:200px;
-    margin:0 auto;
-    margin-top:20px;
-    background-color:#616161;
-    border-radius:5px;
-    overflow:hidden;
-    position:relative;
-    border:solid 1px #999;
+.progres {
+    height: 10px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #616161;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    border: solid 1px #999;
 }
 
 .completed {
@@ -194,4 +184,31 @@ a {
     background-color: #fff;
     transition: width 0.5s ease;
 }
+
+
+@media only screen and (max-width : 768px) {
+
+    .underc-text {
+        font-size: 28px !important;
+    }
+
+}
+
+
+@media only screen and (max-width : 426px) {
+
+    .underc-text {
+        font-size: 22px !important;
+    }
+}
+
+@media only screen and (max-width : 321px) {
+
+    .underc-text {
+        font-size: 18px !important;
+    }
+}
+
+
+
 
