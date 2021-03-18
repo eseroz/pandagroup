@@ -15,6 +15,7 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="bg\" />
     <Folder Include="bootstrap-3.3.7-dist\" />
     <Folder Include="bootstrap-3.3.7-dist\css\" />
     <Folder Include="bootstrap-3.3.7-dist\fonts\" />
@@ -24,6 +25,8 @@
   <ItemGroup>
     <Content Include="1.jpg" />
     <Content Include="bauxite.svg" />
+    <Content Include="bg\app.css" />
+    <Content Include="bg\app.js" />
     <Content Include="bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
     <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap-3.3.7-dist\js\bootstrap.js" />
