@@ -12,19 +12,7 @@ module.exports = function(strings) {
 
 },{}],2:[function(require,module,exports){
 (function (global){
-/*!
- * VERSION: 1.20.3
- * DATE: 2017-10-02
- * UPDATES AND DOCS AT: http://greensock.com
- * 
- * Includes all of the following: TweenLite, TweenMax, TimelineLite, TimelineMax, EasePack, CSSPlugin, RoundPropsPlugin, BezierPlugin, AttrPlugin, DirectionalRotationPlugin
- *
- * @license Copyright (c) 2008-2017, GreenSock. All rights reserved.
- * This work is subject to the terms at http://greensock.com/standard-license or for
- * Club GreenSock members, the software agreement that was issued with your membership.
- * 
- * @author: Jack Doyle, jack@greensock.com
- **/
+
 var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(global) !== "undefined") ? global : this || window; //helps ensure compatibility with AMD/RequireJS and CommonJS/Node
 (_gsScope._gsQueue || (_gsScope._gsQueue = [])).push( function() {
 
@@ -15300,7 +15288,7 @@ if (_gsScope._gsDefine) { _gsScope._gsQueue.pop()(); } //necessary in case Tween
 			canvas.height = 8;
 
 			var context = canvas.getContext( '2d' );
-			context.fillStyle = 'white';
+			context.fillStyle = 'black';
 			context.fillRect( 0, 0, 8, 8 );
 
 			texture = new CanvasTexture( canvas );

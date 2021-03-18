@@ -24,20 +24,27 @@ body {
     text-shadow: #e0e0e0 1px 1px 0;
     height: 100vh;
     width: 100vw;
-    -webkit-filter: blur(5px);
+        -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
+/*    filter: grayscale(100%) brightness(200%) saturate(0%) contrast(1000%);
+    -webkit-filter: grayscale(100%) brightness(200%) saturate(0%) contrast(1000%);
+    -moz-filter: grayscale(100%) brightness(200%) saturate(0%) contrast(1000%);*/
+
     -webkit-transition: -webkit-filter 500ms linear
 }
 
 .body {
-    -webkit-filter: blur(0px);
+        -webkit-filter: blur(0px);
     -moz-filter: blur(0px);
     -o-filter: blur(0px);
     -ms-filter: blur(0px);
     filter: blur(0px);
+/*    filter: grayscale(0%) brightness(100%) saturate(100%) contrast(100%);
+    -webkit-filter: grayscale(0%) brightness(100%) saturate(100%) contrast(100%);
+    -moz-filter: grayscale(0%) brightness(100%) saturate(100%) contrast(100%);*/
 }
 
 a {
@@ -136,33 +143,35 @@ a {
 
     .info span {
     }
+    .info center{
+        margin-top:7px;
+    }
 
-
-.group {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 70px;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
+    .group {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 70px;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
 
     .group div {
         height: 40px;
@@ -242,7 +251,7 @@ a {
 
 
 
-
+/*
 .shine {
     font-size:14px;
     font-weight:bold;
@@ -264,7 +273,7 @@ a {
     -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
     text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
-}
+}*/
 
 @-webkit-keyframes shine {
     0% {
