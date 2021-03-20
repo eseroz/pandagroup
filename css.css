@@ -16,6 +16,8 @@
 }
 
 body {
+    margin:0px;
+    padding:0px;
     background: url(bg.jpg);
     background-position-x: center;
     font-family: 'Roboto', sans-serif;
