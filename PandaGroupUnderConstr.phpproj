@@ -20,6 +20,7 @@
     <Folder Include="bootstrap-3.3.7-dist\css\" />
     <Folder Include="bootstrap-3.3.7-dist\fonts\" />
     <Folder Include="bootstrap-3.3.7-dist\js\" />
+    <Folder Include="pe.shiner\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -32,6 +33,8 @@
     <Content Include="bootstrap-3.3.7-dist\js\bootstrap.js" />
     <Content Include="css.css" />
     <Content Include="index.html" />
+    <Content Include="jpreLoader.min.js" />
     <Content Include="panda-js.js" />
+    <Content Include="pe.shiner\jquery.pixelentity.shiner.min.js" />
   </ItemGroup>
 </Project>
