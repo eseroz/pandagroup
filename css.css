@@ -109,6 +109,11 @@ a {
         -webkit-align-self: auto;
         -ms-flex-item-align: auto;
         align-self: auto;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
     }
 
 .underc-text {
@@ -197,6 +202,11 @@ a {
             height: 40px;
             width: auto;
             cursor: pointer;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
         }
 
             .group div img:hover {
